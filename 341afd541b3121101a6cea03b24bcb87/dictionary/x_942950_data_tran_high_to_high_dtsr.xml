@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9fccb9181b3121101a6cea03b24bcba6" extends="task" label="High-To-High-DTSR" max_length="40" name="x_942950_data_tran_high_to_high_dtsr" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Caveats" max_length="100" name="caveats" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Code" max_length="40" name="code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Create Date" max_length="40" name="create_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Data Description" max_length="1000" name="data_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Data Size" max_length="100" name="data_size" type="string"/>
+        <element label="Destroy Source Physical Media" max_length="40" name="destroy_source_physical_media" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="1000" name="dtsr_comments" type="string"/>
+        <element label="Phone" max_length="40" name="phone" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" label="Requestor" max_length="100" name="requestor" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Source System Classification" max_length="40" name="source_system_classification" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Confidential" value="confidential"/>
+                <element inactive_on_update="false" label="Secret" value="secret"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Target System Classification" max_length="40" name="target_system_classification" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Confidential" value="confidential"/>
+                <element inactive_on_update="false" label="Secret" value="secret"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Transfer Justification" max_length="1000" name="transfer_justification" type="string"/>
+    </element>
+</database>

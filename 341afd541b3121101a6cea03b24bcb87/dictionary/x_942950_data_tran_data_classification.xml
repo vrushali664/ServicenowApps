@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d6edfd581b3121101a6cea03b24bcb91" label="Data Classification" max_length="40" name="x_942950_data_tran_data_classification" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Label" max_length="100" name="label" type="string"/>
+    </element>
+</database>
